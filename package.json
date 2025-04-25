@@ -8,7 +8,8 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"**/*.{json,js,vue,css,md}\"",
-    "lint:json": "prettier --check \"**/*.json\""
+    "lint:json": "prettier --check \"**/*.json\"",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.5.13"
@@ -18,6 +19,7 @@
     "@vitejs/plugin-vue": "^5.2.2",
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "prettier": "^2.8.8",
     "tailwindcss": "^4.1.4",
