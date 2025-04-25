@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"**/*.{json,js,vue,css,md}\"",
     "lint:json": "prettier --check \"**/*.json\"",
@@ -24,7 +24,7 @@
     "prettier": "^2.8.8",
     "tailwindcss": "^4.1.4",
     "typescript": "~5.7.2",
-    "vite": "^6.3.1",
+    "vite": "^6.3.3",
     "vue-tsc": "^2.2.8"
   }
 }

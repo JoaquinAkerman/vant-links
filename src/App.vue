@@ -9,7 +9,7 @@ const selected = ref<keyof typeof links | null>(null)
   <div class="flex min-h-screen bg-gray-900 text-gray-100 font-sans">
     <!-- Sidebar -->
     <aside class="w-64 bg-gray-800 p-6 border-r border-gray-700">
-      <h1 class="text-2xl font-bold mb-6">Categorías</h1>
+      <h1 class="text-2xl font-bold mb-6">Materias</h1>
       <ul class="space-y-2">
         <li
           v-for="key in Object.keys(links)"
@@ -52,5 +52,4 @@ const selected = ref<keyof typeof links | null>(null)
 </template>
 
 <style scoped>
-/* Si querés, podés dejar esto vacío o eliminarlo. Todo se maneja con Tailwind */
 </style>
