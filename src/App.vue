@@ -49,5 +49,5 @@ const selected = ref<keyof typeof links | null>(null)
 </template>
 
 <style scoped>
-/* No additional styles needed */
+/* No additional styles needed for now*/
 </style>
